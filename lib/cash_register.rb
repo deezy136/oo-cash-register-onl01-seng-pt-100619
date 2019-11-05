@@ -47,9 +47,10 @@ end
 
       @total = @total - @last_transaction_amount 
       
+      if @items.nil?
       self.total = 0 
-    
- 
- end 
+    else 
+      @total
+      end 
  
 end
