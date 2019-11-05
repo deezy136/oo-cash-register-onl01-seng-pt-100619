@@ -47,8 +47,7 @@ end
 
       @total = @total - @last_transaction_amount 
       
-      if @items.nil?
-        @total -= @total 
+      return @total-= @total if @items.empty?
     end 
  
  end 
