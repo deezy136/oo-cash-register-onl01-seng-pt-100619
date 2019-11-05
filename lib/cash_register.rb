@@ -13,7 +13,7 @@ def add_item(title, price, quantity = 1)
  
  self.total += price * quantity
 i = 0 
-while i < quantity.size
+while i < quantity
 @items << title 
 i+=1 
 end 
