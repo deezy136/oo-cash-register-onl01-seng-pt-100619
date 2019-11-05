@@ -24,7 +24,7 @@ else
   @items << title 
   end 
    @total = @total + price * quantity
-    @last_transaction_amount = total 
+    @last_transaction_amount = price
         @total
 end 
 
