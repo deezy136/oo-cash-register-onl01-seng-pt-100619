@@ -49,7 +49,7 @@ end
       
       if @items.nil?
         @total -= @total 
-    
+    end 
  
  end 
  
