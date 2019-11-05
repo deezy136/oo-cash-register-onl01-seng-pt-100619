@@ -48,7 +48,7 @@ end
       @total = @total - @last_transaction_amount 
       
       self.total = 0 
-    end 
+    
  
  end 
  
